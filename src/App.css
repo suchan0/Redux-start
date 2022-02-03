@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.add{
+  max-width: 350px;
+  min-height: 5vh;
+  background-color:#fff;
+  padding: 16px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+
+  
+ }
+.Cardimg{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 18vh;
+  max-height:18vh;
+  border-radius: 100px;
+  border: 10px solid #ddd;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  width: 70%;
+} 
+.Create-add{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  max-height:15vh;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  margin: auto;
+  font-size: 55px;
+
+}
+.blue{
+  color:#61dafb;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 7vh;
+  margin-left: 55px;
+  border-radius: 20px;
+  border: 10px solid #ddd;
+  font-size: 25px;
+}
+.scrollTo{
+  height: 100px;
+  font-size: 30px;
+  border-radius: 100px;
+  border: 10px solid #ddd;
+  margin: auto;
+}
+.between{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  height: 10vh;
+  margin-left:50px;
+}
